@@ -1,0 +1,199 @@
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {}
+
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    .s_bar {
+	width: 71%;
+}
+    .gal-head h2::after {
+	width: 38%;
+}
+        .gal-head h2::before {
+	width: 38%;
+}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.s_bar {
+	width: 66%;
+	padding: 0 13px;
+	margin-left: 18px;
+	height: 49px;
+	font-size: 22px;
+}
+    .gal-head h2::after {
+	width: 35%;
+}
+    .gal-head h2::before {;
+	width: 35%;
+}
+    .p-0 {
+	padding: 0 !important;
+	text-align: center;
+	margin-left: 108px;
+}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.navbar-brand img {
+	width: 45%;
+}
+    .wrap {
+	width: 25%;
+}
+    .logo-area {
+	width: 65%;
+	margin-top: 20px;
+	margin-left: 103px;
+}
+    .wrap {
+	width: 25%;
+	top: 40%;
+}
+    .search {
+	width: 271%;
+	position: relative;
+	display: flex;
+}
+    .s_bar {
+	width: 312px;
+	padding: 0px 7px;
+	/* margin-left: 4 !important; */
+	height: 51px !important;
+	font-size: 12px;
+	margin: 0 8px;
+}
+    .dropdown-content {
+	min-width: 163px;
+}
+    .theme_bg img {
+	width: 100%;
+	height: 35vh;
+}
+.banner-text {
+	position: absolute;
+	top: 94px;
+	right: 3%;
+	background: #0a0b2c;
+	width: 244px;
+	height: 141px;
+}
+    .banner-text h2 {
+	font-size: 18px;
+}
+
+.banner-text p {
+	font-size: 10px;
+	margin: 8px 0;
+}
+    .banner-text a {
+	font-size: 11px;
+	padding: 4px;
+	/* transition: all .3s linear; */
+}
+    .gal-head h2::after {
+	width: 30%;
+}
+       .gal-head h2::before {
+	width: 30%;
+}
+ 
+    .w {
+	width: 100%;
+}
+    .flx li a {
+	font-size: 13px;
+}
+    .flx {
+	padding-left: 0;
+}
+    .of-head h2 {
+	font-size: 23px;
+	margin-left: 0;
+}
+    .p {
+        text-align: center;
+    }
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+.navbar-brand img {
+	width: 32% !important;
+}
+    .wrap {
+	width: 45% !important;
+	position: absolute;
+	top: 25% !important;
+	left: 53%;
+	transform: translate(-50%, -50%);
+}
+.logo-area {
+	width: 100% !important;
+	padding: 10px 0 !important;
+}
+    .dropbtn {
+	padding: 9px 5px;
+}
+.s_bar {
+	width: 173px;
+	padding: 0px 7px;
+	/* margin-left: 4 !important; */
+	height: 51px !important;
+	font-size: 12px;
+	margin: 0 8px;
+}
+    .dropdown-content {
+	min-width: 163px;
+}
+    .theme_bg img {
+	width: 100%;
+	height: 30vh;
+}
+.banner-text {
+	position: absolute;
+	top: 30px;
+	right: -1%;
+	background: #0a0b2c;
+	width: 153px;
+}
+    .banner-text h2 {
+	font-size: 18px;
+}
+
+.banner-text p {
+	font-size: 10px;
+	margin: 8px 0;
+}
+  .gal-head h2::after {
+	width: 22%;
+}  
+    
+    .gal-head h2::before {
+	width: 22%;
+}
+.w {
+	width: 100%;
+}
+    .flx li a {
+	font-size: 13px;
+}
+    .flx {
+	padding-left: 0;
+}
+.of-head h2 {
+	font-size: 23px;
+	margin-left: 0;
+}
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

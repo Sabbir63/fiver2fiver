@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- fontawsome CSS -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- Sclick Css-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>Fiver Work</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="images/bangla-mart-logo-0510C99406-seeklogo.com.png" alt="">
+            </a>
+
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <div class="dropdown">
+                        <a class="btn btn- dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            All Categories
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                            <li><a class="dropdown-item" href="#">All Categories</a></li>
+                            <li><a class="dropdown-item" href="#">Sub Categories</a></li>
+                            <li><a class="dropdown-item" href="#">Sub Categories</a></li>
+                        </ul>
+                    </div>
+                    <button type="submit" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="logo-area">
+                <ul class="nav-icons">
+                    <li class="logo_icon"><a href="#"><i class="fas fa-shopping-cart"></i>Cart<span class="wis">0</span></a></li>
+                    <li class="logo_icon"><a href="#"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+                    <li class="logo_icon"><a href="#"><i class="far fa-user"></i>Registration</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="sec_nav">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 com-sm-12 w">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Departments<i class="fas fa-angle-down"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <ul>
+                                <li class="nav-links"> <a href="#about">Appliances</a></li>
+
+                                <li class="nav-links"><a href="#base">Automotive</a>
+
+                                </li>
+                                <li class="nav-links"><a href="#blog">Baby</a></li>
+                                <li class="nav-links"><a href="#contact">Clothing,Shoes & Accessories</a></li>
+                                <li class="nav-links"><a href="#custom">Electronics</a></li>
+                                <li class="nav-links"><a href="#support">Furniture</a></li>
+                                <li class="nav-links"><a href="#tools">Gift & Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="frombar">
+                        <input type="text" class="s_bar" placeholder="Login | Order History | My WishList | Track Order | Be A Seller">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="slide_active">
+            <div class="single_slide theme_bg">
+                <img src="images/Banner.png" alt="immages/Banner33.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3"></div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="banner-text">
+                                <h2 class="Text">Deals Online Oly</h2>
+                                <p class="Text">More Saving.More Funn!</p>
+                                <a class="Text" href="#">Shop Now</a>
+                                <p class="Text">Ends Dec 1At 11:59pm EST. White Quantities Last.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="single_slide theme_bg">
+                <img src="images/Banner.png" alt="immages/Banner33.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3"></div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="banner-text">
+                                <h2 class="Text">Deals Online Oly</h2>
+                                <p class="Text">More Saving.More Funn!</p>
+                                <a class="Text" href="#">Shop Now</a>
+                                <p class="Text">Ends Dec 1At 11:59pm EST. White Quantities Last.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-part">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 w">
+                    <div class="gal-head">
+                        <h2>Shop Departments</h2>
+                    </div>
+                </div>
+                <div class="row" id="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Carrot
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-2.jpg" alt="">
+                                    <div class="gal-text">
+                                        Toys
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-3.jfif" alt="">
+                                    <div class="gal-text">
+                                        Gift
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-4.jpg" alt="">
+                                    <div class="gal-text">
+                                        Furniture
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-5.jpg" alt="">
+                                    <div class="gal-text">
+                                        Personal Care
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-6.jfif" alt="">
+                                    <div class="gal-text">
+                                        Electronics
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-7.jpg" alt="">
+                                    <div class="gal-text">
+                                        Pets
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-9.jfif" alt="">
+                                    <div class="gal-text">
+                                        Carrot
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-10.jfif" alt="">
+                                    <div class="gal-text">
+                                        Women Clothing
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Carrot
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-2.jpg" alt="">
+                                    <div class="gal-text">
+                                        Toys
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-3.jfif" alt="">
+                                    <div class="gal-text">
+                                        Gift
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-4.jpg" alt="">
+                                    <div class="gal-text">
+                                        Furniture
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-5.jpg" alt="">
+                                    <div class="gal-text">
+                                        Personal Care
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-6.jfif" alt="">
+                                    <div class="gal-text">
+                                        Electronics
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-7.jpg" alt="">
+                                    <div class="gal-text">
+                                        Pets
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-9.jfif" alt="">
+                                    <div class="gal-text">
+                                        Carrot
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-10.jfif" alt="">
+                                    <div class="gal-text">
+                                        Women Clothing
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="online-furniture">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 w">
+                    <div class="on-head">
+                        <h2>Your Online Furniture Store</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta in delectus veniam iusto, vel, voluptatibus, ullam ea ratione natus expedita, obcaecati nemo quis qui. Praesentium ratione, expedita. Unde, reprehenderit!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Carrot
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Bedroom
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-2.jfif" alt="">
+                                    <div class="gal-text">
+                                        Living room
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-3.jfif" alt="">
+                                    <div class="gal-text">
+                                        Living room
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Carrot
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Bedroom
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-2.jfif" alt="">
+                                    <div class="gal-text">
+                                        Living room
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-3.jfif" alt="">
+                                    <div class="gal-text">
+                                        Living room
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-2.jfif" alt="">
+                                    <div class="gal-text">
+                                        Living room
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-3.jfif" alt="">
+                                    <div class="gal-text">
+                                        Living room
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/gal-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Carrot
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4">
+                        <div class="gal-item">
+                            <div class="gal-image">
+                                <a href="#">
+                                    <img src="images/online-1.jpg" alt="">
+                                    <div class="gal-text">
+                                        Bedroom
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Office-furniture">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                    <div class="of-head">
+                        <div class="link-area">
+                            <ul class="flx">
+                                <li>
+                                    <a href="#">Bangladesh Mart <i class="fas fa-angle-right"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#">Furniture <i class="fas fa-angle-right"></i></a>
+                                </li>
+                                <li>
+                                    <a>Office Furniture</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <h2>Shop For All Your Office Furniture</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta in delectus veniam iusto,delectus veniam iusto,veniam,veniam </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="gal-item">
+                        <div class="gal-image">
+                            <a href="#">
+                                <img src="images/office-1.jpg" alt="">
+                                <div class="gal-text">
+                                    Office Chair
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="gal-item">
+                        <div class="gal-image">
+                            <a href="#">
+                                <img src="images/office-4.jpg" alt="">
+                                <div class="gal-text">
+                                    Office Desk
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="gal-item">
+                        <div class="gal-image">
+                            <a href="#">
+                                <img src="images/office-3.jfif" alt="">
+                                <div class="gal-text">
+                                    Desk
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="gal-item">
+                        <div class="gal-image">
+                            <a href="#">
+                                <img src="images/office-1.jpg" alt="">
+                                <div class="gal-text">
+                                    Office Chair
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="gal-item">
+                        <div class="gal-image">
+                            <a href="#">
+                                <img src="images/office-4.jpg" alt="">
+                                <div class="gal-text">
+                                    Office Desk
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="gal-item">
+                        <div class="gal-image">
+                            <a href="#">
+                                <img src="images/office-3.jfif" alt="">
+                                <div class="gal-text">
+                                    Desk
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 p w">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="gal-item">
+                                <div class="gal-image">
+                                    <a href="#">
+                                        <img src="images/office-4.jpg" alt="">
+                                        <div class="gal-text">
+                                            Office Desk
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="gal-item">
+                                <div class="gal-image">
+                                    <a href="#">
+                                        <img src="images/office-3.jfif" alt="">
+                                        <div class="gal-text">
+                                            Desk
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="acording">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="accordion_container">
+                        <div class="accordion_head">Categoress<span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                            <a href="#demo" data-toggle="collapse">Furniture <i class="fas fa-chevron-down down"></i></a>
+                            <div id="demo" class="collapse">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JQUERY JS-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- BOOTSTRAP JS-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Slide JS -->
+    <script src="js/slick.min.js"></script>
+    <!-- CUSTOM JS-->
+    <script src="js/custom.js"></script>
+</body>
+
+
+
+</html>
